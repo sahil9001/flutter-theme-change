@@ -14,7 +14,11 @@ class HomePage extends StatelessWidget {
         
       ),
       body: Center(
-        child: Text('Welcome to my app!'),
+        child: Text('Welcome to my app!',
+        style: TextStyle(
+          fontSize: 40.0,
+          fontFamily: 'Roboto' 
+        ),),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => {
